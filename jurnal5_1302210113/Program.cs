@@ -6,6 +6,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        Penjumlahan<int>.PenjumlahanTigaAngka(13, 02, 21);
+        Penjumlahan<double>.PenjumlahanTigaAngka(13, 02, 21);
     }
-}
+} 
