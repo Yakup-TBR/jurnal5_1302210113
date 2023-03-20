@@ -6,14 +6,18 @@ using System.Threading.Tasks;
 
 namespace jurnal5_1302210113
 {
-    internal class Penjumlahan
+    internal class Penjumlahan<T>
     {
-        public static void PenjumlahanTigaAngka<T>(T a, T b, T c)
+        public static void PenjumlahanTigaAngka(T A, T B, T C)
         {
 
-            Console.WriteLine("" + a + "" + b + "" + c);
+            dynamic a = A;
+            dynamic b = B;
+            dynamic c = C;
 
+            float total = a + b + c;
 
+            System.Console.WriteLine(total);
 
         }
     }
