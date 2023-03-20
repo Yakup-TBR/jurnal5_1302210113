@@ -15,8 +15,6 @@ namespace jurnal5_1302210113
             dynamic b = B;
             dynamic c = C;
 
-          
-
             double total = a + b + c;
 
             System.Console.WriteLine(total);

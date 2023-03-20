@@ -8,17 +8,23 @@ namespace jurnal5_1302210113
 {
     internal class SimpleDatabase<T>
     {
-        private T storedData;
-        //private Date inputDate;
+        private List<T> storedData;
+        private List<DateTime> inputDate;
 
         public SimpleDatabase(T storedData)
         {
-            this.storedData = storedData;
+            List<T> data = new List<T>();
         }
 
-        public void AddNewData(T storedData)
+        public void AddNewData(T storeData)
         {
+            this.storedData.Add(storeData);
+            this.inputDate.Add(DateTime.Now);
+        }
 
+        public void printAllData()
+        {
+            Console.WriteLine("Data " + storedData[0] + "berisi" + storedData[1] + ", yang disimpan pada waktu" + inputDate);
         }
 
     }
