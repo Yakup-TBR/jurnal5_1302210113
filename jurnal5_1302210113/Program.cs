@@ -1,10 +1,11 @@
-﻿namespace jurnal5_1302210113
+﻿using System;
+
+using jurnal5_1302210113;
+
+class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        Penjumlahan<int>.PenjumlahanTigaAngka(13, 02, 21);
     }
 }

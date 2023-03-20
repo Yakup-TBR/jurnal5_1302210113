@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace jurnal5_1302210113
 {
-    internal class Penjumlahan<T>
+    public class Penjumlahan<T>
     {
         public static void PenjumlahanTigaAngka(T A, T B, T C)
         {
